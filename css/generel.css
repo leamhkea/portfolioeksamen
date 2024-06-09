@@ -9,11 +9,11 @@ body {
   font-family: "plus jakarta sans";
   background-color: var(--secondary);
   line-height: 150%;
-  text-align: justify;
 }
 main {
   margin: 2% 12%;
   gap: 10%;
+  text-align: justify;
 }
 h1 {
   color: var(--primary);
