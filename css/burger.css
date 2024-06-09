@@ -60,7 +60,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #ffada3;
+  color: #d88d83;
+  text-decoration: underline;
 }
 
 /* step 7 */
