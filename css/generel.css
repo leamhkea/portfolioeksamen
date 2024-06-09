@@ -6,9 +6,13 @@ html {
   --secondary: #e3e0d9;
 }
 body {
-  font-family: "plus jakarta sans";
+  /* font-family: "plus jakarta sans"; */
+  font-family: Abhaya Libre;
   background-color: var(--secondary);
   line-height: 150%;
+}
+p {
+  font-size: 1.2rem;
 }
 main {
   margin: 2% 12%;
