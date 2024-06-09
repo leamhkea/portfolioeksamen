@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forside</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="js/burger.js" />
+    <link rel="stylesheet" href="css/dropdown.css" />
+    <link rel="icon" href="img/logo.webp" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><img src="img/logoo.webp" alt="logo" /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
+          </li>
+          <li class="nav-item">
+            <a href="html/ommig.html" class="nav-link">Om mig</a>
+          </li>
+          <li class="nav-item">
+            <a href="html/projekter.html" class="nav-link">Projekter</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="allemedia">
+        <div class="heroforside">
+          <img src="img/herosection.webp" alt="herosection" />
+        </div>
+        <section class="section1">
+          <h1>Velkommen</h1>
+          <p>
+            På dette website bliver du introduceret til de fem temaopgaver, jeg
+            har gennemgået på 1. semester. Heri indgår en kort beskrivelse af
+            hvert tema og opgave, samt min proces, løsning og resultater.
+          </p>
+        </section>
+        <section class="section2">
+          <div class="dropdown">
+            <a href="html/ommig.html"
+              ><button class="dropbtn">
+                <h2 class="h2knap">Om mig</h2>
+              </button></a
+            >
+          </div>
+          <div class="dropdown">
+            <a href="html/projekter.html"
+              ><button class="dropbtn">
+                <h2 class="h2knap">Projekter</h2>
+              </button></a
+            >
+            <div class="dropdown-content">
+              <a href="html/tema2.html">Website</a>
+              <a href="html/tema3.html">Emnesite</a>
+              <a href="html/tema4.html">Temaopgave</a>
+              <a href="html/tema5a.html">Passionssite</a>
+              <a href="html/tema5b.html">Virksomhedssite</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/burger.js"></script>
+    <footer>
+      <div class="footerstor footerlille">
+        <div class="logoo">
+          <img src="img/logoo.webp" alt="logo" />
+        </div>
+        <p>Eksamen 2024</p>
+        <p>Multimediedesigner</p>
+        <p>KEA</p>
+      </div>
+    </footer>
+  </body>
+</html>
