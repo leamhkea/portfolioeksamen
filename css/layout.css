@@ -13,7 +13,7 @@
 }
 
 .section1 {
-  text-align: center;
+  margin: 1% 10%;
 }
 
 .heroommig {
@@ -40,7 +40,7 @@
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
     gap: 9%;
     padding: 3em;
     padding-top: 1em;
@@ -61,8 +61,8 @@
     text-align: center;
     margin-top: 10%;
     margin-bottom: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
   }
 }
 
