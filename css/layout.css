@@ -13,7 +13,11 @@
   text-align: center;
 }
 .section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
+  margin-top: 20%;
+  margin-bottom: 70%;
 }
 
 .heroommig {
