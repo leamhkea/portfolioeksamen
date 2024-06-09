@@ -1,23 +1,19 @@
 .logoo {
   width: 20%;
 }
+
 .h2knap {
   color: #e3e0d9;
 }
+
 .heroforside {
   width: 70%;
   display: block;
   margin: auto;
 }
+
 .section1 {
   text-align: center;
-}
-.section2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  margin-top: 20%;
-  margin-bottom: 70%;
 }
 
 .heroommig {
@@ -25,19 +21,17 @@
   display: block;
   margin: auto;
 }
+
 .grid1-1 li {
   list-style: inside;
 }
-
-/* .projekter {
-  gap: 60%;
-} */
 
 @media (min-width: 800px) {
   .footerstor {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .section3 {
     display: grid;
@@ -46,6 +40,7 @@
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     gap: 9%;
     padding: 3em;
     padding-top: 1em;
@@ -60,6 +55,15 @@
     padding-top: 1em;
     padding-bottom: 5em;
   }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 
 @media (max-width: 799px) {
@@ -70,6 +74,15 @@
     /* gap: 0.5%; */
   }
   .heroforside {
-    width: 110%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 70%;
   }
 }
