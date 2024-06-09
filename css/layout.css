@@ -57,10 +57,11 @@
     grid-row: 1;
   }
   .opsummering {
-    gap: 15%;
-    padding: 3em;
-    padding-top: 1em;
+    /* margin: 5% 10%; */
+    padding-top: 0.5em;
     padding-bottom: 5em;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .section2 {
     display: grid;
