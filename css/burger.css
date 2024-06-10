@@ -60,7 +60,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #d88d83;
+  color: rgb(195, 6, 6);
   text-decoration: underline;
 }
 
